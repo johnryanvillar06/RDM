@@ -42,7 +42,13 @@ button {
     color: white;
 }
 .Secret {
-    display: none;
+    color: #ffffff; /* Assuming your background is white */
+    /* Or use the same color as the background for invisibility */
+    /* color: #f0f0f0; If your background is not white */
+}
+.visible {
+    color: #333; /* Or any color that makes it visible against your background */
+    display: block; /* Or inline, depending on your layout */
 }
 #noBtn {
     background-color: #f44336; /* Red */
