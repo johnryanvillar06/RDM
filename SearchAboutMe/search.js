@@ -1,9 +1,9 @@
 const aboutMeContents = 
 [
     {
-        title: "Education",
-        content: "I graduated with a degree in Information Technology."
-    },
+        "title": "Education",
+        "content": "I graduated with a Bachelor’s degree in Information Technology."
+    },   
     {
         title: "Hobbies",
         content: "My hobbies include playing video games, coding, and reading various genres of literature."
@@ -28,11 +28,21 @@ const aboutMeContents =
         title: "Instagram Link",
         content: "Same goes for Instagram – keeping it a mystery for the moment. Stay tuned!"
     },
-    
     { 
         title: "Tech Stack", 
         content: "I'm a web developer with experience in both frontend and backend technologies. For the frontend, I specialize in HTML, CSS, and JavaScript, including frameworks like ExtJS. On the backend, I work with .NET, SQL, and use tools like Liquibase for database version control. Additionally, I'm skilled in other programming languages and technologies including Python and Java."
     },
+    // {
+    //     "title": "Games Played",
+    //     "content": [
+    //       "CSGO (Counter-Strike: Global Offensive)",
+    //       "VALORANT",
+    //       "ML (Mobile Legends)",
+    //       "LOL (League of Legends)",
+    //       "DOTA2 (Defense of the Ancients 2)",
+    //       "And more, always exploring new and challenging games!"
+    //     ]
+    //   }      
 ]
 function searchAboutMe() {
     const query = document.getElementById('searchQuery').value.toLowerCase();
