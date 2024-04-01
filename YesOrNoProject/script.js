@@ -3,10 +3,6 @@ document.getElementById('yesBtn').addEventListener('click', function() {
     startFireworks();
 });
 
-document.getElementById('secretMessage').addEventListener('click', function() {
-    this.classList.toggle('visible');
-});
-
 function moveButton() {
     const noBtn = document.getElementById('noBtn');
     const x = Math.random() * (window.innerWidth - noBtn.clientWidth);
