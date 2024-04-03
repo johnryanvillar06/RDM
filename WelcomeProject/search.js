@@ -20,14 +20,14 @@ const aboutMeContents =
         title: "Interest About Me",
         content: "I'm adaptable and enjoy engaging in a wide range of activities, always up for new experiences."
     },
-    {
-        title: "Facebook Link",
-        content: "Looks like I'm keeping my Facebook profile private for now. Maybe another time!"
-    },
-    {
-        title: "Instagram Link",
-        content: "Same goes for Instagram – keeping it a mystery for the moment. Stay tuned!"
-    },
+    // {
+    //     title: "Facebook Link",
+    //     content: "Looks like I'm keeping my Facebook profile private for now. Maybe another time!"
+    // },
+    // {
+    //     title: "Instagram Link",
+    //     content: "Same goes for Instagram – keeping it a mystery for the moment. Stay tuned!"
+    // },
     { 
         title: "Tech Stack", 
         content: "I'm a web developer with experience in both frontend and backend technologies. For the frontend, I specialize in HTML, CSS, and JavaScript, including frameworks like ExtJS. On the backend, I work with .NET, SQL, and use tools like Liquibase for database version control. Additionally, I'm skilled in other programming languages and technologies including Python and Java."
