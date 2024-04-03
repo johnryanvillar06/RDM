@@ -1,0 +1,121 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+/* Board and cell styles */
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+}
+
+#game {
+    text-align: center;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: #333;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #f0f0f0;
+}
+
+/* Restart button styles */
+#restartButton {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px; /* Add space between the board and the button */
+}
+
+#restartButton:hover {
+    background-color: #218838;
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto; /* Center modal content horizontally */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Shorter width */
+    border-radius: 10px; /* Rounded corners */
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); /* Center modal content vertically */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Scoreboard styles */
+#scoreboard {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px 0; /* Reduced padding for a tighter fit */
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    background-color: #f7f7f7;
+    z-index: 2;
+}
+
+#scoreboard div {
+    font-size: 20px;
+}
+
+/* Adjust the top margin of #game to bring it closer to the scoreboard */
+#game {
+    margin-top: 50px; /* Adjust this value as needed to fit your design */
+    /* Your existing #game styles */
+}
+
+/* Board, cell, restart button, and modal styles remain unchanged */
+
+
+/* Board, cell, restart button, and modal styles remain unchanged
