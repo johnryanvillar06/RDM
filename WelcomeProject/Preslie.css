@@ -1,0 +1,26 @@
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #f4e8e1; /* Soft peach background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.letter {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #000;
+    background-color: #ffffff; /* White */
+    text-align: justify;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Soft shadow for depth */
+}
+
+@media screen and (max-width: 600px) {
+    .letter {
+        width: 90%;
+        padding: 10px;
+    }
+}
